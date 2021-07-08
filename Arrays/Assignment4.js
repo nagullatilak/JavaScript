@@ -1,0 +1,16 @@
+var books = []
+var answer
+answer = prompt("What is your favorite book1 ?")
+books.push(answer)
+answer = prompt("What is your favorite book2?")
+books.push(answer)
+answer = prompt("What is your favorite book3?")
+books.push(answer)
+answer = prompt("What is your favorite book4?")
+books.push(answer)
+answer = prompt("What is your favorite book5?")
+books.push(answer)
+answer = prompt("What is your favorite book6?")
+books.splice(0,0,answer)
+books.pop()
+console.log(books)

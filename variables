@@ -1,0 +1,16 @@
+Defining a veriable is called creating a variable
+var carType
+ var carColor
+ --------------------
+ var eyeColor = "blue"
+ var hairColor ="black"
+ var address = "Hyderabad"
+ var name = 'Tilak'
+
+ ------------------------------
+ //Declaration of integer type variables
+ var number = 1
+ -----------------------------
+ //Declartion of boolean type variables
+ var result = true
+ var status = false
