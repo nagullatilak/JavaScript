@@ -84,7 +84,7 @@ function count() {
 //Returns the current date(formatted)
 function getDt() {
     var dt = new Date();
-    var a = dt + "\n --- And the normal date is :" + dt.getDate() + "-" + (dt.getMonth() + +1)+"-" + dt.getFullYear()
+    var a = dt + "\n --- And the normal date is :" + dt.getDay() + "-" + dt.getMonth() + "-" + dt.getFullYear()
     document.getElementById("p6").innerHTML = a;
 
 }
@@ -111,12 +111,12 @@ function getTim() {
 //Converting Inches to feets
 function conversion(){
     var num = document.getElementById("num3").value
-    document.getElementById("p8").innerHTML = num/12+"  Feets"
+    document.getElementById("p8").innerHTML = num/12
 }
 //Converting feets to inches
 function conversionFtI(){
     var num = document.getElementById("num4").value
-    document.getElementById("p9").innerHTML = num*12+" Inches"
+    document.getElementById("p9").innerHTML = num*12
 }
 //Comparing string length
 
@@ -124,10 +124,10 @@ function calculate(){
     var l1 = document.getElementById("word1").value
     var l2 = document.getElementById("word2").value
     if(l1.length == l2.length){
-        document.getElementById("p10").innerHTML = "Both the Strings having same length"
+        document.getElementById("p10").innerHTML = "Both the strings having same length"
     }
     else{
-        document.getElementById("p10").innerHTML = "Length of Two Strings are not equal"
+        document.getElementById("p10").innerHTML = "Length of the strings are different"
     }
 }
 //returns a random password
